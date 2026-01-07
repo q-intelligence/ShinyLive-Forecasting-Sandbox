@@ -3,6 +3,13 @@
 # The app provides a forecasting sandbox for the AirPassengers dataset
 # It supports 3 stats forecasting models - Linear Regression, ARIMA, and Holt-Winters
 
+# Maak een dir aan met de naam "docs"
+# Voer onderstaande commando uit voor het aanmaken van de bestanden voor ShinyLive.
+# shinylive::export(appdir = "C:/Users/q-int/OneDrive/Documenten/R/Projects/ShinyLive-Forecasting-Sandbox/", destdir = "docs")
+
+# test het dashboard met: httpuv::runStaticServer("docs/", port = 8008)
+
+
 library(shiny)
 data(AirPassengers)
 
